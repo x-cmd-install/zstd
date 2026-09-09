@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.5.7"
   latestRelease: "v1.5.7"
   latestPrerelease: "regression-data"
-  collectedAt: 2026-09-09T04:45:11Z
+  collectedAt: 2026-09-09T18:48:26Z
 timeline:
   created: 2015-01-24
   lastCommit: 2026-09-01
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2025-02-19
   lastPrerelease: 2018-11-29
 popularity:
-  star: 27768
+  star: 27801
   watcher: 414
-  fork: 2590
+  fork: 2592
   release: 68
   contributor: 384
-  pullRequest: 3120
+  pullRequest: 3121
   issue: 1582
 language:
   C: 4644035
@@ -44,7 +44,7 @@ recent:
     since: 2026-08-10
     release: 0
     mergedPR: 5
-    openPR: 26
+    openPR: 27
     closedIssue: 1
     openIssue: 9
     commit: 12
@@ -52,7 +52,7 @@ recent:
     since: 2026-07-11
     release: 0
     mergedPR: 9
-    openPR: 41
+    openPR: 42
     closedIssue: 1
     openIssue: 12
     commit: 21
@@ -60,7 +60,7 @@ recent:
     since: 2026-06-11
     release: 0
     mergedPR: 11
-    openPR: 47
+    openPR: 48
     closedIssue: 2
     openIssue: 15
     commit: 25
@@ -68,7 +68,7 @@ recent:
     since: 2026-03-13
     release: 0
     mergedPR: 20
-    openPR: 81
+    openPR: 82
     closedIssue: 4
     openIssue: 31
     commit: 41
@@ -76,7 +76,7 @@ recent:
     since: 2025-09-14
     release: 0
     mergedPR: 65
-    openPR: 101
+    openPR: 102
     closedIssue: 17
     openIssue: 60
     commit: 141
@@ -84,20 +84,20 @@ recent:
     since: 2024-09-19
     release: 1
     mergedPR: 226
-    openPR: 111
+    openPR: 112
     closedIssue: 79
     openIssue: 105
     commit: 806
 total:
   release: 68
   mergedPR: 2553
-  openPR: 120
+  openPR: 121
   closedIssue: 1333
   openIssue: 249
   commit: 11495
 ---
 path: /home/runner/.x-repo/github.com/facebook/zstd
-collectedAt: 2026-09-09T04:45:18Z
+collectedAt: 2026-09-09T18:48:33Z
 loc:
   C:
     code: 78660
