@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.5.7"
   latestRelease: "v1.5.7"
   latestPrerelease: "regression-data"
-  collectedAt: 2026-09-10T21:41:55Z
+  collectedAt: 2026-09-10T22:16:17Z
 timeline:
   created: 2015-01-24
   lastCommit: 2026-09-01
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2025-02-19
   lastPrerelease: 2018-11-29
 popularity:
-  star: 27819
+  star: 27820
   watcher: 414
   fork: 2595
   release: 68
@@ -97,7 +97,7 @@ total:
   commit: 11495
 ---
 path: /home/runner/.x-repo/github.com/facebook/zstd
-collectedAt: 2026-09-10T21:42:07Z
+collectedAt: 2026-09-10T22:16:29Z
 loc:
   C:
     code: 78660
