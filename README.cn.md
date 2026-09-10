@@ -12,7 +12,7 @@ Zstandard - Fast real-time compression algorithm
 x install zstd
 ```
 
-## 代码规模
+## 代码洞察
 
 合计: **116,911** 行代码（覆盖前 5 种语言、共 **387** 个文件）。
 
@@ -48,7 +48,7 @@ x install zstd
 
 ## 流行度
 
-- **Star**: 27,819 · **Fork**: 2,595 · **开放 issue**: 1,586 · **贡献者**: 384
+- **Star**: 27,820 · **Fork**: 2,595 · **开放 issue**: 1,586 · **贡献者**: 384
 
 ## 累计统计
 
@@ -106,4 +106,4 @@ zstd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T21:42:16Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T22:16:37Z._
