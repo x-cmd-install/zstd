@@ -4,7 +4,7 @@
 
 Zstandard - Fast real-time compression algorithm
 
-![zstd](https://repo.x-cmd.io/zstd.svg)
+![zstd](https://repo.x-cmd.io/zstd.svg?lang=zh)
 
 ## 安装
 
@@ -23,23 +23,35 @@ x install zstd
 - **最新版本**: `v1.5.7` (2025-02-19)
 - **最近提交**: 2026-09-01
 - **Release 含资产**: 8 个
-- **发布时间**: 2025-02-19T21:50:11Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [zstd-1.5.7.tar.gz](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz) | 2.3 MiB | `native/unknown` |
+| [zstd-1.5.7.tar.gz.sha256](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz.sha256) | 84 B | `other` |
+| [zstd-1.5.7.tar.gz.sig](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz.sig) | 858 B | `other` |
+| [zstd-1.5.7.tar.zst](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst) | 1.8 MiB | `other` |
+| [zstd-1.5.7.tar.zst.sha256](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst.sha256) | 85 B | `other` |
+| [zstd-1.5.7.tar.zst.sig](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst.sig) | 858 B | `other` |
+| [zstd-v1.5.7-win32.zip](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win32.zip) | 1.7 MiB | `native/win/x64` |
+| [zstd-v1.5.7-win64.zip](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win64.zip) | 1.7 MiB | `native/win/x64` |
 
 ## 流行度
 
-- **Star**: 27,810 · **Fork**: 2,594 · **开放 issue**: 1,585 · **贡献者**: 384
+- **Star**: 27,819 · **Fork**: 2,594 · **开放 issue**: 1,586 · **贡献者**: 384
 
 ## 累计统计
 
-- **发布数**: 68 · **已合并 PR**: 2553 · **开放 PR**: 122 · **已关闭 issue**: 1333 · **开放 issue**: 252 · **提交数**: 11495
+- **发布数**: 68 · **已合并 PR**: 2553 · **开放 PR**: 122 · **已关闭 issue**: 1333 · **开放 issue**: 253 · **提交数**: 11495
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 5 | 26 | 1 | 12 | 12 |
-| 90d | 2026-06-12 | 0 | 11 | 49 | 2 | 18 | 25 |
-| 360d | 2025-09-15 | 0 | 64 | 103 | 17 | 63 | 141 |
+| 30d | 2026-08-11 | 0 | 5 | 26 | 1 | 13 | 12 |
+| 90d | 2026-06-12 | 0 | 11 | 49 | 2 | 19 | 25 |
+| 360d | 2025-09-15 | 0 | 64 | 103 | 17 | 64 | 141 |
 
 ## 代码规模
 
@@ -72,4 +84,4 @@ zstd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T04:53:13Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T16:23:08Z._
