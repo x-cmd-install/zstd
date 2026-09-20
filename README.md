@@ -4,7 +4,7 @@
 
 Zstandard - Fast real-time compression algorithm
 
-![zstd](https://repo.x-cmd.io/zstd.svg)
+[![x-cmd/install — zstd Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zstd.svg)](https://x-cmd.com/install/zstd)
 
 ## Install
 
@@ -14,11 +14,11 @@ x install zstd
 
 ## Code insight
 
-Total: **116,815** lines of code across **389** files in the top 5 languages.
+Total: **116,813** lines of code across **389** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 78,523 | 16,226 | 13,453 | 146 |
+| C | 78,521 | 16,226 | 13,452 | 146 |
 | CHeader | 12,754 | 11,884 | 3,166 | 117 |
 | VisualStudioProject | 6,026 | 0 | 0 | 15 |
 | Sh | 3,936 | 1,021 | 965 | 98 |
@@ -26,13 +26,13 @@ Total: **116,815** lines of code across **389** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.7 / 10**
+Overall score: **8.9 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (3/10) — Found 2/6 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integrati…
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.7` (2025-02-19)
-- **Last commit**: 2026-09-14
+- **Last commit**: 2026-09-18
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 27,886 · **Forks**: 2,605 · **Open issues**: 1,587 · **Contributors**: 384
+- **Stars**: 27,902 · **Forks**: 2,608 · **Open issues**: 1,587 · **Contributors**: 384
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 2556 · **Open PRs**: 128 · **Closed issues**: 1333 · **Open issues**: 254 · **Commits**: 11508
+- **Releases**: 68 · **Merged PRs**: 2558 · **Open PRs**: 127 · **Closed issues**: 1333 · **Open issues**: 254 · **Commits**: 11512
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 8 | 30 | 1 | 13 | 23 |
-| last60d | 2026-07-20 | 0 | 12 | 47 | 1 | 17 | 32 |
-| 90d | 2026-06-20 | 0 | 14 | 53 | 1 | 20 | 36 |
-| last180d | 2026-03-22 | 0 | 22 | 89 | 4 | 35 | 51 |
-| 360d | 2025-09-23 | 0 | 61 | 109 | 14 | 63 | 137 |
-| last720d | 2024-09-28 | 1 | 228 | 119 | 74 | 110 | 810 |
+| 30d | 2026-08-21 | 0 | 10 | 26 | 0 | 12 | 19 |
+| last60d | 2026-07-22 | 0 | 14 | 44 | 1 | 17 | 34 |
+| 90d | 2026-06-22 | 0 | 16 | 52 | 1 | 20 | 38 |
+| last180d | 2026-03-24 | 0 | 24 | 88 | 4 | 35 | 53 |
+| 360d | 2025-09-25 | 0 | 61 | 108 | 14 | 61 | 136 |
+| last720d | 2024-09-30 | 1 | 228 | 118 | 74 | 110 | 814 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260918.yml` · 2026-09-18T05:07:13Z._
+_Snapshot: `data/card/260920.yml` · 2026-09-20T05:02:53Z._

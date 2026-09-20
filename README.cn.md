@@ -4,7 +4,7 @@
 
 Zstandard - Fast real-time compression algorithm
 
-![zstd](https://repo.x-cmd.io/zstd.svg?lang=zh)
+[![x-cmd/install — zstd Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zstd.svg?lang=zh)](https://x-cmd.com/install/zstd)
 
 ## 安装
 
@@ -14,11 +14,11 @@ x install zstd
 
 ## 代码洞察
 
-合计: **116,815** 行代码（覆盖前 5 种语言、共 **389** 个文件）。
+合计: **116,813** 行代码（覆盖前 5 种语言、共 **389** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 78,523 | 16,226 | 13,453 | 146 |
+| C | 78,521 | 16,226 | 13,452 | 146 |
 | CHeader | 12,754 | 11,884 | 3,166 | 117 |
 | VisualStudioProject | 6,026 | 0 | 0 | 15 |
 | Sh | 3,936 | 1,021 | 965 | 98 |
@@ -26,13 +26,13 @@ x install zstd
 
 ## OpenSSF Scorecard 评分
 
-总评分: **8.7 / 10**
+总评分: **8.9 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (3/10) — Found 2/6 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integrati…
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install zstd
 ## 发布
 
 - **最新版本**: `v1.5.7` (2025-02-19)
-- **最近提交**: 2026-09-14
+- **最近提交**: 2026-09-18
 - **Release 含资产**: 8 个
 
 ## 流行度
 
-- **Star**: 27,886 · **Fork**: 2,605 · **开放 issue**: 1,587 · **贡献者**: 384
+- **Star**: 27,902 · **Fork**: 2,608 · **开放 issue**: 1,587 · **贡献者**: 384
 
 ## 累计统计
 
-- **发布数**: 68 · **已合并 PR**: 2556 · **开放 PR**: 128 · **已关闭 issue**: 1333 · **开放 issue**: 254 · **提交数**: 11508
+- **发布数**: 68 · **已合并 PR**: 2558 · **开放 PR**: 127 · **已关闭 issue**: 1333 · **开放 issue**: 254 · **提交数**: 11512
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-19 | 0 | 8 | 30 | 1 | 13 | 23 |
-| last60d | 2026-07-20 | 0 | 12 | 47 | 1 | 17 | 32 |
-| 90d | 2026-06-20 | 0 | 14 | 53 | 1 | 20 | 36 |
-| last180d | 2026-03-22 | 0 | 22 | 89 | 4 | 35 | 51 |
-| 360d | 2025-09-23 | 0 | 61 | 109 | 14 | 63 | 137 |
-| last720d | 2024-09-28 | 1 | 228 | 119 | 74 | 110 | 810 |
+| 30d | 2026-08-21 | 0 | 10 | 26 | 0 | 12 | 19 |
+| last60d | 2026-07-22 | 0 | 14 | 44 | 1 | 17 | 34 |
+| 90d | 2026-06-22 | 0 | 16 | 52 | 1 | 20 | 38 |
+| last180d | 2026-03-24 | 0 | 24 | 88 | 4 | 35 | 53 |
+| 360d | 2025-09-25 | 0 | 61 | 108 | 14 | 61 | 136 |
+| last720d | 2024-09-30 | 1 | 228 | 118 | 74 | 110 | 814 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ zstd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260918.yml` · 2026-09-18T05:07:14Z._
+_数据快照: `data/card/260920.yml` · 2026-09-20T05:02:55Z._
