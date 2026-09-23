@@ -4,7 +4,7 @@
 
 Zstandard - Fast real-time compression algorithm
 
-[![x-cmd/install — zstd Code Quality Monitoring Repo Card](https://repo.x-cmd.io/zstd.svg?lang=zh)](https://x-cmd.com/install/zstd)
+[![x-cmd/install — zstd Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/zstd.svg?lang=zh)](https://x-cmd.com/install/zstd)
 
 ## 安装
 
@@ -48,7 +48,7 @@ x install zstd
 
 ## 流行度
 
-- **Star**: 27,916 · **Fork**: 2,611 · **开放 issue**: 1,587 · **贡献者**: 384
+- **Star**: 27,921 · **Fork**: 2,613 · **开放 issue**: 1,587 · **贡献者**: 384
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install zstd
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 10 | 26 | 0 | 12 | 19 |
-| last60d | 2026-07-24 | 0 | 14 | 43 | 1 | 17 | 34 |
-| 90d | 2026-06-24 | 0 | 16 | 52 | 1 | 20 | 38 |
-| last180d | 2026-03-26 | 0 | 24 | 87 | 4 | 35 | 53 |
-| 360d | 2025-09-27 | 0 | 60 | 108 | 14 | 61 | 136 |
-| last720d | 2024-10-02 | 1 | 225 | 118 | 73 | 110 | 807 |
+| 30d | 2026-08-24 | 0 | 10 | 25 | 0 | 12 | 19 |
+| last60d | 2026-07-25 | 0 | 14 | 43 | 1 | 17 | 34 |
+| 90d | 2026-06-25 | 0 | 16 | 52 | 1 | 20 | 38 |
+| last180d | 2026-03-27 | 0 | 24 | 87 | 4 | 34 | 53 |
+| 360d | 2025-09-28 | 0 | 60 | 108 | 14 | 61 | 136 |
+| last720d | 2024-10-03 | 1 | 223 | 118 | 73 | 110 | 803 |
 
 ## Release 资产
 
@@ -87,4 +87,4 @@ zstd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T05:03:53Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T04:54:58Z._
