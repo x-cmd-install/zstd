@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2434947,
       "digest": null,
-      "download_count": 8150668,
+      "download_count": 8182248,
       "created_at": "2025-02-19T21:50:37Z",
       "updated_at": "2025-02-19T21:50:37Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 84,
       "digest": null,
-      "download_count": 70676,
+      "download_count": 70863,
       "created_at": "2025-02-19T21:50:37Z",
       "updated_at": "2025-02-19T21:50:37Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz.sha256"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 858,
       "digest": null,
-      "download_count": 271516,
+      "download_count": 272119,
       "created_at": "2025-02-19T21:50:38Z",
       "updated_at": "2025-02-19T21:50:38Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz.sig"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1862563,
       "digest": null,
-      "download_count": 541722,
+      "download_count": 542353,
       "created_at": "2025-02-19T21:50:38Z",
       "updated_at": "2025-02-19T21:50:39Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 85,
       "digest": null,
-      "download_count": 1018,
+      "download_count": 1028,
       "created_at": "2025-02-19T21:50:39Z",
       "updated_at": "2025-02-19T21:50:39Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst.sha256"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 858,
       "digest": null,
-      "download_count": 11434,
+      "download_count": 11451,
       "created_at": "2025-02-19T21:50:39Z",
       "updated_at": "2025-02-19T21:50:40Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst.sig"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1766722,
       "digest": null,
-      "download_count": 7814,
+      "download_count": 7826,
       "created_at": "2025-02-28T20:07:18Z",
       "updated_at": "2025-02-28T20:07:26Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win32.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1747181,
       "digest": null,
-      "download_count": 336292,
+      "download_count": 337997,
       "created_at": "2025-02-28T20:07:26Z",
       "updated_at": "2025-02-28T20:07:29Z",
       "browser_download_url": "https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win64.zip"
