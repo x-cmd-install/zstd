@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,956 · **Forks**: 2,619 · **Open issues**: 1,590 · **Contributors**: 383
+- **Stars**: 27,960 · **Forks**: 2,621 · **Open issues**: 1,590 · **Contributors**: 383
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 2558 · **Open PRs**: 141 · **Closed issues**: 1333 · **Open issues**: 257 · **Commits**: 11512
+- **Releases**: 68 · **Merged PRs**: 2558 · **Open PRs**: 145 · **Closed issues**: 1333 · **Open issues**: 257 · **Commits**: 11512
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 0 | 5 | 37 | 0 | 9 | 13 |
-| last60d | 2026-08-02 | 0 | 11 | 52 | 1 | 17 | 28 |
-| 90d | 2026-07-03 | 0 | 14 | 65 | 1 | 23 | 34 |
-| last180d | 2026-04-04 | 0 | 20 | 100 | 4 | 37 | 45 |
-| 360d | 2025-10-06 | 0 | 59 | 121 | 14 | 63 | 132 |
-| last720d | 2024-10-11 | 1 | 220 | 132 | 72 | 111 | 789 |
+| 30d | 2026-09-02 | 0 | 5 | 41 | 0 | 9 | 13 |
+| last60d | 2026-08-03 | 0 | 11 | 56 | 1 | 17 | 28 |
+| 90d | 2026-07-04 | 0 | 14 | 69 | 1 | 23 | 34 |
+| last180d | 2026-04-05 | 0 | 20 | 104 | 4 | 37 | 45 |
+| 360d | 2025-10-07 | 0 | 59 | 125 | 14 | 63 | 132 |
+| last720d | 2024-10-12 | 1 | 220 | 136 | 72 | 111 | 785 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T05:52:16Z._
+_Snapshot: `data/card/261002.yml` · 2026-10-02T05:41:59Z._
