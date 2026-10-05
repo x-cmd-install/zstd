@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 27,974 · **Forks**: 2,622 · **Open issues**: 1,590 · **Contributors**: 383
+- **Stars**: 27,978 · **Forks**: 2,621 · **Open issues**: 1,590 · **Contributors**: 383
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 0 | 5 | 43 | 0 | 8 | 4 |
-| last60d | 2026-08-05 | 0 | 11 | 63 | 1 | 17 | 25 |
-| 90d | 2026-07-06 | 0 | 14 | 76 | 1 | 23 | 34 |
-| last180d | 2026-04-07 | 0 | 20 | 108 | 4 | 37 | 45 |
-| 360d | 2025-10-09 | 0 | 58 | 131 | 14 | 62 | 132 |
-| last720d | 2024-10-14 | 1 | 220 | 142 | 71 | 111 | 782 |
+| 30d | 2026-09-05 | 0 | 5 | 42 | 0 | 8 | 4 |
+| last60d | 2026-08-06 | 0 | 11 | 60 | 1 | 17 | 25 |
+| 90d | 2026-07-07 | 0 | 14 | 76 | 1 | 23 | 34 |
+| last180d | 2026-04-08 | 0 | 20 | 107 | 4 | 37 | 45 |
+| 360d | 2025-10-10 | 0 | 58 | 131 | 14 | 62 | 132 |
+| last720d | 2024-10-15 | 1 | 220 | 142 | 71 | 111 | 782 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T05:56:28Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T05:40:00Z._
