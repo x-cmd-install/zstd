@@ -14,7 +14,7 @@ x install zstd
 
 ## Code insight
 
-Total: **116,813** lines of code across **389** files in the top 5 languages.
+Total: **116,832** lines of code across **389** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
@@ -22,17 +22,17 @@ Total: **116,813** lines of code across **389** files in the top 5 languages.
 | CHeader | 12,754 | 11,884 | 3,166 | 117 |
 | VisualStudioProject | 6,026 | 0 | 0 | 15 |
 | Sh | 3,936 | 1,021 | 965 | 98 |
-| Python | 3,274 | 291 | 519 | 13 |
+| Python | 3,293 | 292 | 523 | 13 |
 
 ## OpenSSF Scorecard
 
-Overall score: **8.9 / 10**
+Overall score: **8.7 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (3/10) — Found 3/8 approved changesets -- score normalized to 3
 - **Packaging** (-1/10) — packaging workflow not detected
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: githubv4.Query: Resource not accessible by integrati…
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.7` (2025-02-19)
-- **Last commit**: 2026-09-18
+- **Last commit**: 2026-10-06
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 27,978 · **Forks**: 2,621 · **Open issues**: 1,590 · **Contributors**: 383
+- **Stars**: 27,982 · **Forks**: 2,622 · **Open issues**: 1,590 · **Contributors**: 383
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 2558 · **Open PRs**: 151 · **Closed issues**: 1333 · **Open issues**: 257 · **Commits**: 11512
+- **Releases**: 68 · **Merged PRs**: 2564 · **Open PRs**: 140 · **Closed issues**: 1333 · **Open issues**: 257 · **Commits**: 11532
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 5 | 42 | 0 | 8 | 4 |
-| last60d | 2026-08-06 | 0 | 11 | 60 | 1 | 17 | 25 |
-| 90d | 2026-07-07 | 0 | 14 | 76 | 1 | 23 | 34 |
-| last180d | 2026-04-08 | 0 | 20 | 107 | 4 | 37 | 45 |
-| 360d | 2025-10-10 | 0 | 58 | 131 | 14 | 62 | 132 |
-| last720d | 2024-10-15 | 1 | 220 | 142 | 71 | 111 | 782 |
+| 30d | 2026-09-06 | 0 | 11 | 35 | 0 | 8 | 24 |
+| last60d | 2026-08-07 | 0 | 17 | 52 | 1 | 17 | 45 |
+| 90d | 2026-07-08 | 0 | 20 | 69 | 1 | 23 | 54 |
+| last180d | 2026-04-09 | 0 | 26 | 100 | 4 | 37 | 65 |
+| 360d | 2025-10-11 | 0 | 64 | 124 | 14 | 62 | 152 |
+| last720d | 2024-10-16 | 1 | 224 | 134 | 71 | 111 | 802 |
 
 ## Release assets
 
@@ -87,4 +87,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T05:40:00Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T06:24:56Z._
