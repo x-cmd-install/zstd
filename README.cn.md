@@ -48,22 +48,22 @@ x install zstd
 
 ## 流行度
 
-- **Star**: 28,075 · **Fork**: 2,643 · **开放 issue**: 1,601 · **贡献者**: 384
+- **Star**: 28,082 · **Fork**: 2,646 · **开放 issue**: 1,601 · **贡献者**: 384
 
 ## 累计统计
 
-- **发布数**: 68 · **已合并 PR**: 2565 · **开放 PR**: 161 · **已关闭 issue**: 1334 · **开放 issue**: 267 · **提交数**: 11532
+- **发布数**: 68 · **已合并 PR**: 2565 · **开放 PR**: 164 · **已关闭 issue**: 1334 · **开放 issue**: 267 · **提交数**: 11532
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-22 | 0 | 6 | 40 | 0 | 14 | 20 |
-| last60d | 2026-08-23 | 0 | 16 | 64 | 0 | 26 | 44 |
-| 90d | 2026-07-24 | 0 | 20 | 81 | 1 | 31 | 54 |
-| last180d | 2026-04-25 | 0 | 25 | 115 | 4 | 44 | 63 |
-| 360d | 2025-10-27 | 0 | 61 | 144 | 14 | 71 | 138 |
-| last720d | 2024-11-01 | 1 | 220 | 155 | 68 | 118 | 720 |
+| 30d | 2026-09-23 | 0 | 6 | 43 | 0 | 14 | 20 |
+| last60d | 2026-08-24 | 0 | 16 | 66 | 0 | 26 | 44 |
+| 90d | 2026-07-25 | 0 | 20 | 84 | 1 | 31 | 54 |
+| last180d | 2026-04-26 | 0 | 25 | 118 | 4 | 44 | 63 |
+| 360d | 2025-10-28 | 0 | 61 | 147 | 14 | 70 | 138 |
+| last720d | 2024-11-02 | 1 | 220 | 158 | 68 | 118 | 720 |
 
 ## Release 资产
 
@@ -78,6 +78,25 @@ x install zstd
 | [zstd-v1.5.7-win32.zip](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win32.zip) | 1.7 MiB | `native/win/x64` |
 | [zstd-v1.5.7-win64.zip](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win64.zip) | 1.7 MiB | `native/win/x64` |
 
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/zstd) 上共有 **318** 个发行版报告此项目。**174** 个 ✅ 已是最新上游版本，**106** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.5.7` | ✅ latest |
+| Debian 14 | `1.5.7` | ✅ latest |
+| Debian 13 | `1.5.7` | ✅ latest |
+| Ubuntu 26.04 LTS | `1.5.7` | ✅ latest |
+| Ubuntu 24.04 LTS | `1.5.5` | ⚠️ outdated |
+| Arch | `1.5.7` | ✅ latest |
+| Homebrew | `1.5.7` | ✅ latest |
+| Fedora rawhide | `1.5.7` | ✅ latest |
+| Nix unstable | `1.5.7` | ✅ latest |
+| Void | `1.5.7` | ✅ latest |
+| Alpine edge | `1.5.7` | ✅ latest |
+| openSUSE Tumbleweed | `1.5.7` | ✅ latest |
+
 ## 改进这些数据
 
 zstd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `zstd` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -87,4 +106,4 @@ zstd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261022.yml` · 2026-10-22T04:42:33Z._
+_数据快照: `data/card/261023.yml` · 2026-10-23T04:48:45Z._
