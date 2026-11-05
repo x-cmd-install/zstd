@@ -14,11 +14,11 @@ x install zstd
 
 ## Code insight
 
-Total: **116,832** lines of code across **389** files in the top 5 languages.
+Total: **116,834** lines of code across **389** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 78,521 | 16,226 | 13,452 | 146 |
+| C | 78,523 | 16,226 | 13,452 | 146 |
 | CHeader | 12,754 | 11,884 | 3,166 | 117 |
 | VisualStudioProject | 6,026 | 0 | 0 | 15 |
 | Sh | 3,936 | 1,021 | 965 | 98 |
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.7` (2025-02-19)
-- **Last commit**: 2026-10-06
+- **Last commit**: 2026-11-05
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 28,157 · **Forks**: 2,671 · **Open issues**: 1,608 · **Contributors**: 384
+- **Stars**: 28,167 · **Forks**: 2,677 · **Open issues**: 1,610 · **Contributors**: 384
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 2565 · **Open PRs**: 178 · **Closed issues**: 1334 · **Open issues**: 274 · **Commits**: 11532
+- **Releases**: 68 · **Merged PRs**: 2566 · **Open PRs**: 184 · **Closed issues**: 1334 · **Open issues**: 276 · **Commits**: 11535
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-05 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-05 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-06 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-14 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-06 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-06 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-07 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-15 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -106,4 +106,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261104.yml` · 2026-11-04T06:18:55Z._
+_Snapshot: `data/card/261105.yml` · 2026-11-05T06:45:44Z._
