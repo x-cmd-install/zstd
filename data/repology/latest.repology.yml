@@ -1,124 +1,13 @@
-- repo: xrepo
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.0
-  origversion: null
-  status: legacy
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD-3-Clause
-- repo: xrepo
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.2
-  origversion: null
-  status: legacy
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD-3-Clause
-- repo: xrepo
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.5
-  origversion: null
-  status: legacy
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD-3-Clause
-- repo: xrepo
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.6
-  origversion: null
-  status: legacy
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD-3-Clause
-- repo: chocolatey
-  binname: zstandard
-  visiblename: Zstandard
-  version: 1.5.7.20250308
-  origversion: null
-  status: untrusted
-  summary: Fast real-time compression algorithm
-- repo: chromebrew
-  srcname: musl_zstd
-  visiblename: musl_zstd
-  version: 1.5.4
-  origversion: null
-  status: outdated
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD or GPL-2
-- repo: chromebrew
+- repo: crux_37
+  subrepo: core
   srcname: zstd
   visiblename: zstd
   version: 1.5.7
   origversion: null
   status: newest
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD or GPL-2
-- repo: ibmi
-  srcname: zstd
-  binnames:
-    - zstd
-    - libzstd1
-    - zstd-devel
-  visiblename: zstd
-  version: 1.5.2
-  origversion: 1.5.2-3
-  status: outdated
-  summary: A fast lossless compression algorithm
-  licenses:
-    - BSD-3-Clause
-  categories:
-    - Unspecified
-- repo: epel_7
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.5
-  origversion: 1.5.5-1.el7
-  status: outdated
-  summary: Zstd compression library
-  licenses:
-    - BSD and GPLv2
-  categories:
-    - Unspecified
-- repo: kali_rolling
-  subrepo: main
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.5.7
-  origversion: 1.5.7+dfsg-4
-  status: newest
+  summary: Real-time compression algorithm with high compression ratios
   maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - roam@debian.org
-  categories:
-    - misc
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.5.7
-  origversion: 1.5.7+dfsg-4
-  status: newest
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - roam@debian.org
-  categories:
-    - misc
+    - core-ports@crux.nu
 - repo: adelie_current
   subrepo: system
   srcname: zstd
@@ -132,21 +21,6 @@
     - awilfox@adelielinux.org
   licenses:
     - BSD-3-Clause AND GPL-2.0-only
-- repo: apertis_v2024
-  subrepo: v2024/target
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.5.4
-  origversion: 1.5.4+dfsg2-5+apertis2
-  status: outdated
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - roam@debian.org
 - repo: adelie_current
   subrepo: system
   srcname: zstd
@@ -423,6 +297,17 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-3-Clause OR GPL-2.0-or-later
+- repo: stalix
+  srcname: bin/zstd
+  binname: bin/zstd
+  visiblename: bin/zstd
+  version: 1.5.7
+  origversion: null
+  status: newest
+  maintainers:
+    - anton@samokhvalov.xyz
+  categories:
+    - bin
 - repo: alpine_3_19
   subrepo: main
   srcname: zstd
@@ -592,6 +477,278 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: zstd
+  binname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: 1.5.7-r0
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: zstd
+  binname: zstd-dev
+  visiblename: zstd-dev
+  version: 1.5.7
+  origversion: 1.5.7-r0
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: zstd
+  binname: zstd-doc
+  visiblename: zstd-doc
+  version: 1.5.7
+  origversion: 1.5.7-r0
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: zstd
+  binname: zstd-frugal
+  visiblename: zstd-frugal
+  version: 1.5.7
+  origversion: 1.5.7-r0
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (frugal cli)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_22
+  subrepo: main
+  srcname: zstd
+  binname: zstd-libs
+  visiblename: zstd-libs
+  version: 1.5.7
+  origversion: 1.5.7-r0
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: crux_37
+  subrepo: compat-32
+  srcname: zstd-32
+  visiblename: zstd-32
+  version: 1.5.7
+  origversion: null
+  status: newest
+  summary: Real-time compression with high compression ratios.
+  maintainers:
+    - compat-32-ports@crux.nu
+- repo: alpine_3_22
+  subrepo: main
+  srcname: zstd
+  binname: zstd-static
+  visiblename: zstd-static
+  version: 1.5.7
+  origversion: 1.5.7-r0
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: zstd
+  binname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: zstd
+  binname: zstd-dev
+  visiblename: zstd-dev
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: zstd
+  binname: zstd-doc
+  visiblename: zstd-doc
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: apertis_v2024
+  subrepo: v2024/target
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
+  version: 1.5.4
+  origversion: 1.5.4+dfsg2-5+apertis2
+  status: outdated
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - roam@debian.org
+- repo: alpine_3_23
+  subrepo: main
+  srcname: zstd
+  binname: zstd-frugal
+  visiblename: zstd-frugal
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (frugal cli)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: zstd
+  binname: zstd-libs
+  visiblename: zstd-libs
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_23
+  subrepo: main
+  srcname: zstd
+  binname: zstd-static
+  visiblename: zstd-static
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: zstd
+  binname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: zstd
+  binname: zstd-dev
+  visiblename: zstd-dev
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: zstd
+  binname: zstd-doc
+  visiblename: zstd-doc
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (documentation)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: zstd
+  binname: zstd-frugal
+  visiblename: zstd-frugal
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (frugal cli)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: zstd
+  binname: zstd-libs
+  visiblename: zstd-libs
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (libraries)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_3_24
+  subrepo: main
+  srcname: zstd
+  binname: zstd-static
+  visiblename: zstd-static
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (static library)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: alpine_edge
+  subrepo: main
+  srcname: zstd
+  binname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: 1.5.7-r2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
 - repo: apertis_v2025
   subrepo: v2025/target
   srcname: libzstd
@@ -607,268 +764,6 @@
   maintainers:
     - team+pkg-rpm@tracker.debian.org
     - roam@debian.org
-- repo: alpine_3_22
-  subrepo: main
-  srcname: zstd
-  binname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: 1.5.7-r0
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: zstd
-  binname: zstd-dev
-  visiblename: zstd-dev
-  version: 1.5.7
-  origversion: 1.5.7-r0
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: zstd
-  binname: zstd-doc
-  visiblename: zstd-doc
-  version: 1.5.7
-  origversion: 1.5.7-r0
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: zstd
-  binname: zstd-frugal
-  visiblename: zstd-frugal
-  version: 1.5.7
-  origversion: 1.5.7-r0
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (frugal cli)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: zstd
-  binname: zstd-libs
-  visiblename: zstd-libs
-  version: 1.5.7
-  origversion: 1.5.7-r0
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_22
-  subrepo: main
-  srcname: zstd
-  binname: zstd-static
-  visiblename: zstd-static
-  version: 1.5.7
-  origversion: 1.5.7-r0
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: zstd
-  binname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: zstd
-  binname: zstd-dev
-  visiblename: zstd-dev
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: zstd
-  binname: zstd-doc
-  visiblename: zstd-doc
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: zstd
-  binname: zstd-frugal
-  visiblename: zstd-frugal
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (frugal cli)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: apertis_v2026
-  subrepo: v2026/target
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.5.7
-  origversion: 1.5.7+dfsg-1+apertis1
-  status: newest
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - roam@debian.org
-- repo: alpine_3_23
-  subrepo: main
-  srcname: zstd
-  binname: zstd-libs
-  visiblename: zstd-libs
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_23
-  subrepo: main
-  srcname: zstd
-  binname: zstd-static
-  visiblename: zstd-static
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: zstd
-  binname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: zstd
-  binname: zstd-dev
-  visiblename: zstd-dev
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: zstd
-  binname: zstd-doc
-  visiblename: zstd-doc
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (documentation)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: zstd
-  binname: zstd-frugal
-  visiblename: zstd-frugal
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (frugal cli)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: zstd
-  binname: zstd-libs
-  visiblename: zstd-libs
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (libraries)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_3_24
-  subrepo: main
-  srcname: zstd
-  binname: zstd-static
-  visiblename: zstd-static
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (static library)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: alpine_edge
-  subrepo: main
-  srcname: zstd
-  binname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: 1.5.7-r2
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
 - repo: alpine_edge
   subrepo: main
   srcname: zstd
@@ -882,21 +777,6 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-3-Clause OR GPL-2.0-or-later
-- repo: apertis_v2027
-  subrepo: v2027dev1/target
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.5.7
-  origversion: 1.5.7+dfsg-1+apertis1
-  status: newest
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - roam@debian.org
 - repo: alpine_edge
   subrepo: main
   srcname: zstd
@@ -936,18 +816,16 @@
     - ncopa@alpinelinux.org
   licenses:
     - BSD-3-Clause OR GPL-2.0-or-later
-- repo: artix
-  subrepo: system
+- repo: crux_38
+  subrepo: core
   srcname: zstd
-  binname: zstd
   visiblename: zstd
   version: 1.5.7
-  origversion: 1.5.7-3
+  origversion: null
   status: newest
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD-3-Clause
-    - GPL-2.0-only
+  summary: Real-time compression algorithm with high compression ratios
+  maintainers:
+    - core-ports@crux.nu
 - repo: alpine_edge
   subrepo: main
   srcname: zstd
@@ -1085,18 +963,36 @@
     - fallback-mnt-aosc@repology
   categories:
     - utils
-- repo: arch
-  subrepo: core
-  srcname: zstd
-  binname: zstd
-  visiblename: zstd
+- repo: apertis_v2026
+  subrepo: v2026/target
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
   version: 1.5.7
-  origversion: 1.5.7-3
+  origversion: 1.5.7+dfsg-1+apertis1
   status: newest
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD-3-Clause
-    - GPL-2.0-only
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - roam@debian.org
+- repo: apertis_v2027
+  subrepo: v2027dev1/target
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
+  version: 1.5.7
+  origversion: 1.5.7+dfsg-1+apertis1
+  status: newest
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - roam@debian.org
 - repo: arch
   subrepo: multilib
   srcname: lib32-zstd
@@ -1106,6 +1002,18 @@
   origversion: 1.5.7-2
   status: newest
   summary: Zstandard - Fast real-time compression algorithm (32-bit)
+  licenses:
+    - BSD-3-Clause
+    - GPL-2.0-only
+- repo: arch
+  subrepo: core
+  srcname: zstd
+  binname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: 1.5.7-3
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm
   licenses:
     - BSD-3-Clause
     - GPL-2.0-only
@@ -1132,6 +1040,32 @@
   summary: Zstandard - Fast real-time compression algorithm (with static lib)
   maintainers:
     - etabeta1@aur
+  licenses:
+    - BSD
+    - GPL2
+- repo: aur
+  srcname: mingw-w64-zstd
+  binname: mingw-w64-zstd
+  visiblename: mingw-w64-zstd
+  version: 1.5.7
+  origversion: 1.5.7-2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (mingw-w64)
+  maintainers:
+    - g3tchoo@aur
+    - hurricanepootis@aur
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
+- repo: aur
+  srcname: mingw-w64-zstd-static
+  binname: mingw-w64-zstd-static
+  visiblename: mingw-w64-zstd-static
+  version: 1.5.7
+  origversion: 1.5.7-1
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (mingw-w64)
+  maintainers:
+    - mangofizz@aur
   licenses:
     - BSD
     - GPL2
@@ -1200,32 +1134,18 @@
   licenses:
     - BSD
     - GPL2
-- repo: aur
-  srcname: mingw-w64-zstd
-  binname: mingw-w64-zstd
-  visiblename: mingw-w64-zstd
+- repo: artix
+  subrepo: system
+  srcname: zstd
+  binname: zstd
+  visiblename: zstd
   version: 1.5.7
-  origversion: 1.5.7-2
+  origversion: 1.5.7-3
   status: newest
-  summary: Zstandard - Fast real-time compression algorithm (mingw-w64)
-  maintainers:
-    - g3tchoo@aur
-    - hurricanepootis@aur
+  summary: Zstandard - Fast real-time compression algorithm
   licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: aur
-  srcname: mingw-w64-zstd-static
-  binname: mingw-w64-zstd-static
-  visiblename: mingw-w64-zstd-static
-  version: 1.5.7
-  origversion: 1.5.7-1
-  status: newest
-  summary: Zstandard - Fast real-time compression algorithm (mingw-w64)
-  maintainers:
-    - mangofizz@aur
-  licenses:
-    - BSD
-    - GPL2
+    - BSD-3-Clause
+    - GPL-2.0-only
 - repo: artix
   subrepo: lib32
   srcname: lib32-zstd
@@ -1422,6 +1342,31 @@
   summary: Zstd compression utilities (programs) (manual pages)
   licenses:
     - BSD-3-Clause
+- repo: chocolatey
+  binname: zstandard
+  visiblename: Zstandard
+  version: 1.5.7.20250308
+  origversion: null
+  status: untrusted
+  summary: Fast real-time compression algorithm
+- repo: chromebrew
+  srcname: musl_zstd
+  visiblename: musl_zstd
+  version: 1.5.4
+  origversion: null
+  status: outdated
+  summary: Zstandard - Fast real-time compression algorithm
+  licenses:
+    - BSD or GPL-2
+- repo: chromebrew
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: null
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm
+  licenses:
+    - BSD or GPL-2
 - repo: chromebrew
   srcname: zstd_static
   visiblename: zstd_static
@@ -1461,36 +1406,6 @@
   version: 1.5.0
   origversion: null
   status: legacy
-- repo: crux_37
-  subrepo: core
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: null
-  status: newest
-  summary: Real-time compression algorithm with high compression ratios
-  maintainers:
-    - core-ports@crux.nu
-- repo: crux_37
-  subrepo: compat-32
-  srcname: zstd-32
-  visiblename: zstd-32
-  version: 1.5.7
-  origversion: null
-  status: newest
-  summary: Real-time compression with high compression ratios.
-  maintainers:
-    - compat-32-ports@crux.nu
-- repo: crux_38
-  subrepo: core
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: null
-  status: newest
-  summary: Real-time compression algorithm with high compression ratios
-  maintainers:
-    - core-ports@crux.nu
 - repo: crux_38
   subrepo: compat-32
   srcname: zstd-32
@@ -1501,62 +1416,23 @@
   summary: Real-time compression with high compression ratios.
   maintainers:
     - compat-32-ports@crux.nu
-- repo: cygwin
-  srcname: mingw64-i686-zstd
-  binname: mingw64-i686-zstd
-  visiblename: mingw64-i686-zstd
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
   version: 1.5.7
-  origversion: 1.5.7-1
+  origversion: 1.5.7+dfsg-1
   status: newest
-  summary: Zstandard compression library for Win32 toolchain
   maintainers:
-    - achim.gratz@cygwin
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-only
+    - team+pkg-rpm@tracker.debian.org
+    - roam@debian.org
   categories:
-    - Devel
-- repo: cygwin
-  srcname: mingw64-i686-zstd
-  binname: mingw64-i686-zstd-debuginfo
-  visiblename: mingw64-i686-zstd-debuginfo
-  version: 1.5.7
-  origversion: 1.5.7-1
-  status: newest
-  summary: Zstandard compression library for Win32 toolchain
-  maintainers:
-    - achim.gratz@cygwin
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-only
-  categories:
-    - Debug
-- repo: cygwin
-  srcname: mingw64-x86_64-zstd
-  binname: mingw64-x86_64-zstd
-  visiblename: mingw64-x86_64-zstd
-  version: 1.5.7
-  origversion: 1.5.7-1
-  status: newest
-  summary: Zstandard compression library for Win64 toolchain
-  maintainers:
-    - achim.gratz@cygwin
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-only
-  categories:
-    - Devel
-- repo: cygwin
-  srcname: mingw64-x86_64-zstd
-  binname: mingw64-x86_64-zstd-debuginfo
-  visiblename: mingw64-x86_64-zstd-debuginfo
-  version: 1.5.7
-  origversion: 1.5.7-1
-  status: newest
-  summary: Zstandard compression library for Win64 toolchain
-  maintainers:
-    - achim.gratz@cygwin
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-only
-  categories:
-    - Debug
+    - libs
 - repo: cygwin
   srcname: zstd
   binname: libzstd-devel
@@ -1607,6 +1483,62 @@
   origversion: 1.5.7-1
   status: newest
   summary: Zstandard compression utilities
+  maintainers:
+    - achim.gratz@cygwin
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-only
+  categories:
+    - Debug
+- repo: cygwin
+  srcname: mingw64-i686-zstd
+  binname: mingw64-i686-zstd
+  visiblename: mingw64-i686-zstd
+  version: 1.5.7
+  origversion: 1.5.7-1
+  status: newest
+  summary: Zstandard compression library for Win32 toolchain
+  maintainers:
+    - achim.gratz@cygwin
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-only
+  categories:
+    - Devel
+- repo: cygwin
+  srcname: mingw64-i686-zstd
+  binname: mingw64-i686-zstd-debuginfo
+  visiblename: mingw64-i686-zstd-debuginfo
+  version: 1.5.7
+  origversion: 1.5.7-1
+  status: newest
+  summary: Zstandard compression library for Win32 toolchain
+  maintainers:
+    - achim.gratz@cygwin
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-only
+  categories:
+    - Debug
+- repo: cygwin
+  srcname: mingw64-x86_64-zstd
+  binname: mingw64-x86_64-zstd
+  visiblename: mingw64-x86_64-zstd
+  version: 1.5.7
+  origversion: 1.5.7-1
+  status: newest
+  summary: Zstandard compression library for Win64 toolchain
+  maintainers:
+    - achim.gratz@cygwin
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-only
+  categories:
+    - Devel
+- repo: cygwin
+  srcname: mingw64-x86_64-zstd
+  binname: mingw64-x86_64-zstd-debuginfo
+  visiblename: mingw64-x86_64-zstd-debuginfo
+  version: 1.5.7
+  origversion: 1.5.7-1
+  status: newest
+  summary: Zstandard compression library for Win64 toolchain
   maintainers:
     - achim.gratz@cygwin
   licenses:
@@ -1698,6 +1630,15 @@
     - roam@debian.org
   categories:
     - misc
+- repo: pclinuxos
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: 1.5.7-5pclos2026
+  status: newest
+  summary: Zstd compression library
+  categories:
+    - Archiving/Compression
 - repo: debian_14
   subrepo: forky/main
   srcname: libzstd
@@ -1798,6 +1739,34 @@
   maintainers:
     - team+pkg-rpm@tracker.debian.org
     - roam@debian.org
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
+  version: 1.5.7
+  origversion: 1.5.7+dfsg-4
+  status: newest
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - roam@debian.org
+  categories:
+    - misc
+- repo: epel_7
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.5
+  origversion: 1.5.5-1.el7
+  status: outdated
+  summary: Zstd compression library
+  licenses:
+    - BSD and GPLv2
+  categories:
+    - Unspecified
 - repo: eurolinux_9
   subrepo: baseos
   srcname: zstd
@@ -1850,6 +1819,21 @@
     - app-arch
 - repo: fedora_39
   subrepo: release
+  srcname: mingw-zstd
+  binnames:
+    - mingw32-zstd
+    - mingw64-zstd
+  visiblename: mingw-zstd
+  version: 1.5.5
+  origversion: 1.5.5-2.fc39
+  status: outdated
+  summary: MinGW Windows zstd library
+  licenses:
+    - (BSD or GPLv2) and MIT
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
   srcname: zstd
   binnames:
     - zstd
@@ -1865,21 +1849,6 @@
   summary: Zstd compression library
   licenses:
     - BSD-3-Clause AND GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_39
-  subrepo: release
-  srcname: mingw-zstd
-  binnames:
-    - mingw32-zstd
-    - mingw64-zstd
-  visiblename: mingw-zstd
-  version: 1.5.5
-  origversion: 1.5.5-2.fc39
-  status: outdated
-  summary: MinGW Windows zstd library
-  licenses:
-    - (BSD or GPLv2) and MIT
   categories:
     - Unspecified
 - repo: fedora_39
@@ -1903,21 +1872,6 @@
     - Unspecified
 - repo: fedora_40
   subrepo: release
-  srcname: mingw-zstd
-  binnames:
-    - mingw32-zstd
-    - mingw64-zstd
-  visiblename: mingw-zstd
-  version: 1.5.5
-  origversion: 1.5.5-4.fc40
-  status: outdated
-  summary: MinGW Windows zstd library
-  licenses:
-    - (BSD or GPLv2) and MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
   srcname: zstd
   binnames:
     - zstd
@@ -1933,6 +1887,21 @@
   summary: Zstd compression library
   licenses:
     - BSD-3-Clause AND GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: mingw-zstd
+  binnames:
+    - mingw32-zstd
+    - mingw64-zstd
+  visiblename: mingw-zstd
+  version: 1.5.5
+  origversion: 1.5.5-4.fc40
+  status: outdated
+  summary: MinGW Windows zstd library
+  licenses:
+    - (BSD or GPLv2) and MIT
   categories:
     - Unspecified
 - repo: fedora_40
@@ -2052,6 +2021,21 @@
     - Unspecified
 - repo: fedora_43
   subrepo: release
+  srcname: mingw-zstd
+  binnames:
+    - mingw32-zstd
+    - mingw64-zstd
+  visiblename: mingw-zstd
+  version: 1.5.7
+  origversion: 1.5.7-2.fc43
+  status: newest
+  summary: MinGW Windows zstd library
+  licenses:
+    - BSD-3-Clause AND GPL-2.0-only
+  categories:
+    - Unspecified
+- repo: fedora_43
+  subrepo: release
   srcname: zstd
   binnames:
     - zstd
@@ -2067,7 +2051,7 @@
     - BSD-3-Clause AND GPL-2.0-only
   categories:
     - Unspecified
-- repo: fedora_43
+- repo: fedora_44
   subrepo: release
   srcname: mingw-zstd
   binnames:
@@ -2075,7 +2059,7 @@
     - mingw64-zstd
   visiblename: mingw-zstd
   version: 1.5.7
-  origversion: 1.5.7-2.fc43
+  origversion: 1.5.7-3.fc44
   status: newest
   summary: MinGW Windows zstd library
   licenses:
@@ -2097,21 +2081,6 @@
   summary: Zstd compression library
   licenses:
     - BSD-3-Clause OR GPL-2.0-only
-  categories:
-    - Unspecified
-- repo: fedora_44
-  subrepo: release
-  srcname: mingw-zstd
-  binnames:
-    - mingw32-zstd
-    - mingw64-zstd
-  visiblename: mingw-zstd
-  version: 1.5.7
-  origversion: 1.5.7-3.fc44
-  status: newest
-  summary: MinGW Windows zstd library
-  licenses:
-    - BSD-3-Clause AND GPL-2.0-only
   categories:
     - Unspecified
 - repo: fedora_rawhide
@@ -2196,17 +2165,17 @@
   srcname: zstd
   binname: zstd
   visiblename: zstd
-  version: 1.5.7
+  version: 1.5.6
   origversion: null
-  status: newest
+  status: legacy
   summary: Zstandard real-time compression algorithm
 - repo: gnuguix
   srcname: zstd
   binname: zstd
   visiblename: zstd
-  version: 1.5.6
+  version: 1.5.7
   origversion: null
-  status: legacy
+  status: newest
   summary: Zstandard real-time compression algorithm
 - repo: gobolinux
   srcname: Zstd
@@ -2247,6 +2216,38 @@
   version: 1.5.7
   origversion: null
   status: newest
+- repo: ibmi
+  srcname: zstd
+  binnames:
+    - zstd
+    - libzstd1
+    - zstd-devel
+  visiblename: zstd
+  version: 1.5.2
+  origversion: 1.5.2-3
+  status: outdated
+  summary: A fast lossless compression algorithm
+  licenses:
+    - BSD-3-Clause
+  categories:
+    - Unspecified
+- repo: kali_rolling
+  subrepo: main
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
+  version: 1.5.7
+  origversion: 1.5.7+dfsg-4
+  status: newest
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - roam@debian.org
+  categories:
+    - misc
 - repo: kaos
   subrepo: core
   srcname: zstd
@@ -2322,6 +2323,17 @@
     - '|| ( BSD GPL-2 )'
   categories:
     - app-arch
+- repo: nix_unstable
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: null
+  status: newest
+  summary: Zstandard real-time compression algorithm
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - BSD-3-Clause
 - repo: macports
   srcname: archivers/zstd
   binname: zstd
@@ -2391,6 +2403,21 @@
     - Development/Other
 - repo: mageia_10
   subrepo: core/release
+  srcname: mingw-zstd
+  binnames:
+    - mingw32-zstd
+    - mingw64-zstd
+  visiblename: mingw-zstd
+  version: 1.5.7
+  origversion: 1.5.7-2.mga10
+  status: newest
+  summary: MinGW Windows zstd library
+  licenses:
+    - (BSD or GPLv2) and MIT
+  categories:
+    - Development/Other
+- repo: mageia_10
+  subrepo: core/release
   srcname: zstd
   binnames:
     - zstd
@@ -2405,36 +2432,6 @@
     - BSD and GPLv2
   categories:
     - Archiving/Compression
-- repo: mageia_10
-  subrepo: core/release
-  srcname: mingw-zstd
-  binnames:
-    - mingw32-zstd
-    - mingw64-zstd
-  visiblename: mingw-zstd
-  version: 1.5.7
-  origversion: 1.5.7-2.mga10
-  status: newest
-  summary: MinGW Windows zstd library
-  licenses:
-    - (BSD or GPLv2) and MIT
-  categories:
-    - Development/Other
-- repo: mageia_cauldron
-  subrepo: core/release
-  srcname: mingw-zstd
-  binnames:
-    - mingw32-zstd
-    - mingw64-zstd
-  visiblename: mingw-zstd
-  version: 1.5.7
-  origversion: 1.5.7-2.mga10
-  status: newest
-  summary: MinGW Windows zstd library
-  licenses:
-    - (BSD or GPLv2) and MIT
-  categories:
-    - Development/Other
 - repo: mageia_cauldron
   subrepo: core/release
   srcname: zstd
@@ -2451,66 +2448,81 @@
     - BSD and GPLv2
   categories:
     - Archiving/Compression
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-zstd
-  binname: lib32-zstd
-  visiblename: lib32-zstd
-  version: 1.5.5
-  origversion: 1.5.5-1
-  status: outdated
-  summary: Zstandard - Fast real-time compression algorithm (32-bit)
+- repo: mageia_cauldron
+  subrepo: core/release
+  srcname: mingw-zstd
+  binnames:
+    - mingw32-zstd
+    - mingw64-zstd
+  visiblename: mingw-zstd
+  version: 1.5.7
+  origversion: 1.5.7-2.mga10
+  status: newest
+  summary: MinGW Windows zstd library
   licenses:
-    - BSD
-    - GPL2
+    - (BSD or GPLv2) and MIT
+  categories:
+    - Development/Other
 - repo: manjaro_stable
   subrepo: core
   srcname: zstd
   binname: zstd
   visiblename: zstd
-  version: 1.5.5
-  origversion: 1.5.5-1
-  status: outdated
+  version: 1.5.7
+  origversion: 1.5.7-3
+  status: newest
   summary: Zstandard - Fast real-time compression algorithm
   licenses:
-    - BSD
-    - GPL2
-- repo: manjaro_testing
+    - BSD-3-Clause
+    - GPL-2.0-only
+- repo: manjaro_stable
   subrepo: multilib
   srcname: lib32-zstd
   binname: lib32-zstd
   visiblename: lib32-zstd
-  version: 1.5.5
-  origversion: 1.5.5-1
-  status: outdated
+  version: 1.5.7
+  origversion: 1.5.7-2
+  status: newest
   summary: Zstandard - Fast real-time compression algorithm (32-bit)
   licenses:
-    - BSD
-    - GPL2
+    - BSD-3-Clause
+    - GPL-2.0-only
 - repo: manjaro_testing
   subrepo: core
   srcname: zstd
   binname: zstd
   visiblename: zstd
-  version: 1.5.5
-  origversion: 1.5.5-1
-  status: outdated
+  version: 1.5.7
+  origversion: 1.5.7-3
+  status: newest
   summary: Zstandard - Fast real-time compression algorithm
   licenses:
-    - BSD
-    - GPL2
+    - BSD-3-Clause
+    - GPL-2.0-only
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-zstd
+  binname: lib32-zstd
+  visiblename: lib32-zstd
+  version: 1.5.7
+  origversion: 1.5.7-2
+  status: newest
+  summary: Zstandard - Fast real-time compression algorithm (32-bit)
+  licenses:
+    - BSD-3-Clause
+    - GPL-2.0-only
 - repo: manjaro_unstable
   subrepo: core
   srcname: zstd
   binname: zstd
   visiblename: zstd
-  version: 1.5.5
-  origversion: 1.5.5-1
-  status: outdated
+  version: 1.5.7
+  origversion: 1.5.7-3
+  status: newest
   summary: Zstandard - Fast real-time compression algorithm
   licenses:
-    - BSD
-    - GPL2
+    - BSD-3-Clause
+    - GPL-2.0-only
 - repo: manjaro_unstable
   subrepo: multilib
   srcname: lib32-zstd
@@ -2602,18 +2614,6 @@
     - BSD
   categories:
     - development
-- repo: pkgsrc_2026_2
-  srcname: archivers/zstd
-  binname: zstd
-  visiblename: archivers/zstd
-  version: 1.5.7
-  origversion: null
-  status: newest
-  summary: Fast real-time compression algorithm
-  maintainers:
-    - pkgsrc-users@netbsd.org
-  categories:
-    - archivers
 - repo: msys2_ucrt64
   srcname: mingw-w64-zstd
   binname: mingw-w64-ucrt-x86_64-zstd
@@ -2669,17 +2669,6 @@
   licenses:
     - BSD-3-Clause
 - repo: nix_stable_26_05
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: null
-  status: newest
-  summary: Zstandard real-time compression algorithm
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - BSD-3-Clause
-- repo: nix_unstable
   srcname: zstd
   visiblename: zstd
   version: 1.5.7
@@ -2929,6 +2918,16 @@
     - roam@debian.org
   categories:
     - libs
+- repo: spack
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.7
+  origversion: null
+  status: newest
+  maintainers:
+    - haampie@spack
+  licenses:
+    - BSD-3-Clause OR GPL-2.0-or-later
 - repo: openmamba
   subrepo: base
   srcname: zstd
@@ -3013,17 +3012,6 @@
     - BSD
   categories:
     - Archiving/Compression
-- repo: openpkg_current
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.5
-  origversion: null
-  status: outdated
-  summary: ZStandard Compression
-  licenses:
-    - BSD
-  categories:
-    - Compression
 - repo: opensuse_leap_15_5
   subrepo: main/oss
   srcname: zstd
@@ -3129,23 +3117,6 @@
     - BSD-3-Clause
     - GPL-2.0-only
 - repo: parrot
-  subrepo: parrot-updates/main
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.5.7
-  origversion: 1.5.7+dfsg-1
-  status: newest
-  maintainers:
-    - team+pkg-rpm@tracker.debian.org
-    - roam@debian.org
-  categories:
-    - libs
-- repo: parrot
   subrepo: parrot/main
   srcname: libzstd
   binnames:
@@ -3162,15 +3133,6 @@
     - roam@debian.org
   categories:
     - misc
-- repo: pclinuxos
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: 1.5.7-5pclos2026
-  status: newest
-  summary: Zstd compression library
-  categories:
-    - Archiving/Compression
 - repo: pisi_main
   subrepo: core
   srcname: system/base/zstd
@@ -3199,6 +3161,18 @@
     - GPL2
   categories:
     - app:console
+- repo: pkgsrc_2026_2
+  srcname: archivers/zstd
+  binname: zstd
+  visiblename: archivers/zstd
+  version: 1.5.7
+  origversion: null
+  status: newest
+  summary: Fast real-time compression algorithm
+  maintainers:
+    - pkgsrc-users@netbsd.org
+  categories:
+    - archivers
 - repo: pkgsrc_2026_3
   srcname: archivers/zstd
   binname: zstd
@@ -3579,27 +3553,6 @@
     - haampie@spack
   licenses:
     - BSD-3-Clause OR GPL-2.0-or-later
-- repo: spack
-  srcname: zstd
-  visiblename: zstd
-  version: 1.5.7
-  origversion: null
-  status: newest
-  maintainers:
-    - haampie@spack
-  licenses:
-    - BSD-3-Clause OR GPL-2.0-or-later
-- repo: stalix
-  srcname: bin/zstd
-  binname: bin/zstd
-  visiblename: bin/zstd
-  version: 1.5.7
-  origversion: null
-  status: newest
-  maintainers:
-    - anton@samokhvalov.xyz
-  categories:
-    - bin
 - repo: stalix
   srcname: lib/zstd
   binname: lib/zstd
@@ -3653,16 +3606,6 @@
   summary: Zstandard is a real-time compression algorithm, providing high compression ratios.
   maintainers:
     - starkos@disroot.org
-- repo: wikidata
-  srcname: Q26737171
-  visiblename: Zstandard
-  version: 1.5.7
-  origversion: null
-  status: newest
-  summary: lossless compression algorithm
-  licenses:
-    - 3-clause BSD License
-    - GNU General Public License, version 2.0
 - repo: t2
   srcname: zstd
   visiblename: zstd
@@ -3788,6 +3731,23 @@
     - roam@debian.org
   categories:
     - misc
+- repo: ubuntu_27_04
+  subrepo: tenacious/main
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
+  version: 1.5.7
+  origversion: 1.5.7+dfsg-4
+  status: newest
+  maintainers:
+    - team+pkg-rpm@tracker.debian.org
+    - roam@debian.org
+  categories:
+    - misc
 - repo: vcpkg
   srcname: zstd
   visiblename: zstd
@@ -3847,6 +3807,52 @@
   summary: Zstandard - Fast real-time compression algorithm
   maintainers:
     - wonkru-dev@proton.me
+- repo: wikidata
+  srcname: Q26737171
+  visiblename: Zstandard
+  version: 1.5.7
+  origversion: null
+  status: newest
+  summary: lossless compression algorithm
+  licenses:
+    - 3-clause BSD License
+    - GNU General Public License, version 2.0
+- repo: xrepo
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.0
+  origversion: null
+  status: legacy
+  summary: Zstandard - Fast real-time compression algorithm
+  licenses:
+    - BSD-3-Clause
+- repo: xrepo
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.2
+  origversion: null
+  status: legacy
+  summary: Zstandard - Fast real-time compression algorithm
+  licenses:
+    - BSD-3-Clause
+- repo: xrepo
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.5
+  origversion: null
+  status: legacy
+  summary: Zstandard - Fast real-time compression algorithm
+  licenses:
+    - BSD-3-Clause
+- repo: xrepo
+  srcname: zstd
+  visiblename: zstd
+  version: 1.5.6
+  origversion: null
+  status: legacy
+  summary: Zstandard - Fast real-time compression algorithm
+  licenses:
+    - BSD-3-Clause
 - repo: xrepo
   srcname: zstd
   visiblename: zstd
@@ -3856,54 +3862,6 @@
   summary: Zstandard - Fast real-time compression algorithm
   licenses:
     - BSD-3-Clause
-- repo: xrepo
-  srcname: zstd
-  visiblename: zstd
-  version: 1.4.5
-  origversion: null
-  status: legacy
-  summary: Zstandard - Fast real-time compression algorithm
-  licenses:
-    - BSD-3-Clause
-  vulnerable: true
-- repo: epel_6
-  srcname: zstd
-  visiblename: zstd
-  version: 1.4.5
-  origversion: 1.4.5-3.el6
-  status: outdated
-  summary: Zstd compression library
-  licenses:
-    - BSD and GPLv2
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: zstd
-  visiblename: zstd
-  version: 1.4.2
-  origversion: 1.4.2-2.el8
-  status: legacy
-  summary: Zstd compression library
-  licenses:
-    - BSD and GPLv2
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: eurolinux_8
-  subrepo: baseos
-  srcname: zstd
-  visiblename: zstd
-  version: 1.4.4
-  origversion: 1.4.4-1.el8
-  status: outdated
-  summary: Zstd compression library
-  licenses:
-    - BSD and GPLv2
-  categories:
-    - Unspecified
-  vulnerable: true
 - repo: almalinux_8
   subrepo: BaseOS
   srcname: zstd
@@ -3918,6 +3876,24 @@
     - BSD and GPLv2
   categories:
     - Unspecified
+  vulnerable: true
+- repo: apertis_v2023
+  subrepo: v2023/target
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
+  version: 1.4.8
+  origversion: 1.4.8+dfsg-2.1apertis2
+  status: outdated
+  maintainers:
+    - debian-med-packaging@lists.alioth.debian.org
+    - kdmfoss@gmail.com
+    - mestia@debian.org
+    - osallou@debian.org
   vulnerable: true
 - repo: amazon_2
   srcname: zstd
@@ -3942,24 +3918,6 @@
     - BSD and GPLv2
   categories:
     - Unspecified
-  vulnerable: true
-- repo: apertis_v2023
-  subrepo: v2023/target
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.4.8
-  origversion: 1.4.8+dfsg-2.1apertis2
-  status: outdated
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - kdmfoss@gmail.com
-    - mestia@debian.org
-    - osallou@debian.org
   vulnerable: true
 - repo: centos_8
   subrepo: BaseOS
@@ -3986,6 +3944,18 @@
   summary: Zstd compression library
   maintainers:
     - bugs@centos.org
+  licenses:
+    - BSD and GPLv2
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: openeuler_20_03_lts_sp3
+  srcname: zstd
+  visiblename: zstd
+  version: 1.4.5
+  origversion: 1.4.5-1.oe1
+  status: outdated
+  summary: A fast lossless compression algorithm
   licenses:
     - BSD and GPLv2
   categories:
@@ -4049,6 +4019,44 @@
   categories:
     - misc
   vulnerable: true
+- repo: epel_6
+  srcname: zstd
+  visiblename: zstd
+  version: 1.4.5
+  origversion: 1.4.5-3.el6
+  status: outdated
+  summary: Zstd compression library
+  licenses:
+    - BSD and GPLv2
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: zstd
+  visiblename: zstd
+  version: 1.4.2
+  origversion: 1.4.2-2.el8
+  status: legacy
+  summary: Zstd compression library
+  licenses:
+    - BSD and GPLv2
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: eurolinux_8
+  subrepo: baseos
+  srcname: zstd
+  visiblename: zstd
+  version: 1.4.4
+  origversion: 1.4.4-1.el8
+  status: outdated
+  summary: Zstd compression library
+  licenses:
+    - BSD and GPLv2
+  categories:
+    - Unspecified
+  vulnerable: true
 - repo: hpux_11_31
   subrepo: hppa_32
   srcname: zstd
@@ -4080,18 +4088,6 @@
     - BSD-2-Clause
   categories:
     - nginxModules
-  vulnerable: true
-- repo: openeuler_20_03_lts_sp3
-  srcname: zstd
-  visiblename: zstd
-  version: 1.4.5
-  origversion: 1.4.5-1.oe1
-  status: outdated
-  summary: A fast lossless compression algorithm
-  licenses:
-    - BSD and GPLv2
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: openeuler_20_03_lts_sp4
   srcname: zstd
@@ -4208,6 +4204,23 @@
     - Unspecified
   vulnerable: true
 - repo: ubuntu_16_04
+  subrepo: xenial/universe
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd0
+    - zstd
+  visiblename: libzstd
+  version: 0.5.1
+  origversion: 0.5.1-1
+  status: legacy
+  maintainers:
+    - debian-med-packaging@lists.alioth.debian.org
+    - spam@kdmurray.id.au
+  categories:
+    - universe/misc
+  vulnerable: true
+- repo: ubuntu_16_04
   subrepo: xenial-updates/main
   srcname: libzstd
   binnames:
@@ -4224,23 +4237,6 @@
     - osallou@debian.org
   categories:
     - misc
-  vulnerable: true
-- repo: ubuntu_16_04
-  subrepo: xenial/universe
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd0
-    - zstd
-  visiblename: libzstd
-  version: 0.5.1
-  origversion: 0.5.1-1
-  status: legacy
-  maintainers:
-    - debian-med-packaging@lists.alioth.debian.org
-    - spam@kdmurray.id.au
-  categories:
-    - universe/misc
   vulnerable: true
 - repo: ubuntu_18_04
   subrepo: bionic/main
@@ -4285,26 +4281,6 @@
     - misc
   vulnerable: true
 - repo: ubuntu_20_04
-  subrepo: focal-updates/main
-  srcname: libzstd
-  binnames:
-    - libzstd-dev
-    - libzstd1
-    - zstd
-    - libzstd1-udeb
-  visiblename: libzstd
-  version: 1.4.4
-  origversion: 1.4.4+dfsg-3ubuntu0.1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-    - kdmfoss@gmail.com
-    - mestia@debian.org
-    - osallou@debian.org
-  categories:
-    - misc
-  vulnerable: true
-- repo: ubuntu_20_04
   subrepo: focal/main
   srcname: libzstd
   binnames:
@@ -4318,6 +4294,26 @@
   status: outdated
   maintainers:
     - debian-med-packaging@lists.alioth.debian.org
+    - kdmfoss@gmail.com
+    - mestia@debian.org
+    - osallou@debian.org
+  categories:
+    - misc
+  vulnerable: true
+- repo: ubuntu_20_04
+  subrepo: focal-updates/main
+  srcname: libzstd
+  binnames:
+    - libzstd-dev
+    - libzstd1
+    - zstd
+    - libzstd1-udeb
+  visiblename: libzstd
+  version: 1.4.4
+  origversion: 1.4.4+dfsg-3ubuntu0.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
     - kdmfoss@gmail.com
     - mestia@debian.org
     - osallou@debian.org
@@ -4343,4 +4339,14 @@
     - osallou@debian.org
   categories:
     - misc
+  vulnerable: true
+- repo: xrepo
+  srcname: zstd
+  visiblename: zstd
+  version: 1.4.5
+  origversion: null
+  status: legacy
+  summary: Zstandard - Fast real-time compression algorithm
+  licenses:
+    - BSD-3-Clause
   vulnerable: true
