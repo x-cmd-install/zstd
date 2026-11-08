@@ -14,14 +14,14 @@ x install zstd
 
 ## Code insight
 
-Total: **116,834** lines of code across **389** files in the top 5 languages.
+Total: **116,928** lines of code across **389** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 78,523 | 16,226 | 13,452 | 146 |
+| C | 78,583 | 16,236 | 13,457 | 146 |
 | CHeader | 12,754 | 11,884 | 3,166 | 117 |
 | VisualStudioProject | 6,026 | 0 | 0 | 15 |
-| Sh | 3,936 | 1,021 | 965 | 98 |
+| Sh | 3,970 | 1,026 | 967 | 98 |
 | Python | 3,293 | 292 | 523 | 13 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.5.7` (2025-02-19)
-- **Last commit**: 2026-11-07
+- **Last commit**: 2026-11-08
 - **Assets in release**: 8
 
 ## Popularity
 
-- **Stars**: 28,182 · **Forks**: 2,677 · **Open issues**: 1,612 · **Contributors**: 384
+- **Stars**: 28,205 · **Forks**: 2,677 · **Open issues**: 1,612 · **Contributors**: 387
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 2567 · **Open PRs**: 189 · **Closed issues**: 1334 · **Open issues**: 278 · **Commits**: 11537
+- **Releases**: 68 · **Merged PRs**: 2571 · **Open PRs**: 183 · **Closed issues**: 1335 · **Open issues**: 277 · **Commits**: 11545
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-08 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-09 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-11 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-12 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-11-17 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-09 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-10 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-12 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-13 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-11-18 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -106,4 +106,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261107.yml` · 2026-11-07T05:59:13Z._
+_Snapshot: `data/card/261108.yml` · 2026-11-08T06:09:10Z._
