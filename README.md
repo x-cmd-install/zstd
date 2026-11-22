@@ -14,14 +14,14 @@ x install zstd
 
 ## Code insight
 
-Total: **123,166** lines of code across **412** files in the top 5 languages.
+Total: **123,204** lines of code across **413** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| C | 83,923 | 16,889 | 13,848 | 150 |
+| C | 83,928 | 16,891 | 13,848 | 150 |
 | CHeader | 12,778 | 12,024 | 3,173 | 117 |
 | VisualStudioProject | 6,030 | 0 | 0 | 15 |
-| Sh | 4,786 | 1,152 | 1,101 | 117 |
+| Sh | 4,819 | 1,159 | 1,108 | 118 |
 | Python | 3,298 | 294 | 523 | 13 |
 
 ## OpenSSF Scorecard
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 28,281 · **Forks**: 2,704 · **Open issues**: 1,620 · **Contributors**: 409
+- **Stars**: 28,282 · **Forks**: 2,704 · **Open issues**: 1,620 · **Contributors**: 411
 
 ## Totals (cumulative)
 
-- **Releases**: 68 · **Merged PRs**: 2675 · **Open PRs**: 157 · **Closed issues**: 1367 · **Open issues**: 253 · **Commits**: 11728
+- **Releases**: 68 · **Merged PRs**: 2677 · **Open PRs**: 157 · **Closed issues**: 1369 · **Open issues**: 251 · **Commits**: 11732
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-22 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-23 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-26 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-01 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-24 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-26 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-27 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-02 | 1 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -106,4 +106,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261121.yml` · 2026-11-21T07:05:33Z._
+_Snapshot: `data/card/261122.yml` · 2026-11-22T06:57:53Z._
