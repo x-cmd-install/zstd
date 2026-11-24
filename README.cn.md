@@ -14,14 +14,14 @@ x install zstd
 
 ## 代码洞察
 
-合计: **123,204** 行代码（覆盖前 5 种语言、共 **413** 个文件）。
+合计: **123,385** 行代码（覆盖前 5 种语言、共 **414** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| C | 83,928 | 16,891 | 13,848 | 150 |
-| CHeader | 12,778 | 12,024 | 3,173 | 117 |
+| C | 84,003 | 16,907 | 13,856 | 150 |
+| CHeader | 12,789 | 12,028 | 3,176 | 117 |
 | VisualStudioProject | 6,030 | 0 | 0 | 15 |
-| Sh | 4,819 | 1,159 | 1,108 | 118 |
+| Sh | 4,837 | 1,163 | 1,116 | 119 |
 | Python | 3,298 | 294 | 523 | 13 |
 
 ## OpenSSF Scorecard 评分
@@ -42,60 +42,61 @@ x install zstd
 
 ## 发布
 
-- **最新版本**: `v1.5.7` (2025-02-19)
-- **最近提交**: 2026-11-21
-- **Release 含资产**: 8 个
+- **最新版本**: `v1.6.0` (2026-11-23)
+- **最近提交**: 2026-11-24
+- **Release 含资产**: 9 个
 
 ## 流行度
 
-- **Star**: 28,291 · **Fork**: 2,705 · **开放 issue**: 1,620 · **贡献者**: 411
+- **Star**: 28,307 · **Fork**: 2,709 · **开放 issue**: 1,621 · **贡献者**: 410
 
 ## 累计统计
 
-- **发布数**: 68 · **已合并 PR**: 2677 · **开放 PR**: 158 · **已关闭 issue**: 1370 · **开放 issue**: 250 · **提交数**: 11732
+- **发布数**: 69 · **已合并 PR**: 2686 · **开放 PR**: 161 · **已关闭 issue**: 1370 · **开放 issue**: 251 · **提交数**: 11740
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-24 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-25 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-27 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-28 | 0 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-03 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-25 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-25 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-28 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-29 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-04 | 2 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [zstd-1.5.7.tar.gz](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz) | 2.3 MiB | `native/unknown` |
-| [zstd-1.5.7.tar.gz.sha256](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz.sha256) | 84 B | `other` |
-| [zstd-1.5.7.tar.gz.sig](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.gz.sig) | 858 B | `other` |
-| [zstd-1.5.7.tar.zst](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst) | 1.8 MiB | `other` |
-| [zstd-1.5.7.tar.zst.sha256](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst.sha256) | 85 B | `other` |
-| [zstd-1.5.7.tar.zst.sig](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-1.5.7.tar.zst.sig) | 858 B | `other` |
-| [zstd-v1.5.7-win32.zip](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win32.zip) | 1.7 MiB | `native/win/x64` |
-| [zstd-v1.5.7-win64.zip](https://github.com/facebook/zstd/releases/download/v1.5.7/zstd-v1.5.7-win64.zip) | 1.7 MiB | `native/win/x64` |
+| [zstd-1.6.0.tar.gz](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz) | 2.4 MiB | `native/unknown` |
+| [zstd-1.6.0.tar.gz.sha256](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz.sha256) | 84 B | `other` |
+| [zstd-1.6.0.tar.gz.sig](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz.sig) | 858 B | `other` |
+| [zstd-1.6.0.tar.zst](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.zst) | 1.9 MiB | `other` |
+| [zstd-1.6.0.tar.zst.sha256](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.zst.sha256) | 85 B | `other` |
+| [zstd-1.6.0.tar.zst.sig](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.zst.sig) | 858 B | `other` |
+| [zstd-v1.6.0-win-arm64.zip](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-v1.6.0-win-arm64.zip) | 1.2 MiB | `other` |
+| [zstd-v1.6.0-win32.zip](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-v1.6.0-win32.zip) | 1.5 MiB | `native/win/x64` |
+| [zstd-v1.6.0-win64.zip](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-v1.6.0-win64.zip) | 1.5 MiB | `native/win/x64` |
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/zstd) 上共有 **317** 个发行版报告此项目。**178** 个 ✅ 已是最新上游版本，**102** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/zstd) 上共有 **320** 个发行版报告此项目。**40** 个 ✅ 已是最新上游版本，**239** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
-| Debian unstable | `1.5.7` | ✅ latest |
-| Debian 14 | `1.5.7` | ✅ latest |
-| Debian 13 | `1.5.7` | ✅ latest |
-| Ubuntu 26.04 LTS | `1.5.7` | ✅ latest |
+| Debian unstable | `1.5.7` | ⚠️ outdated |
+| Debian 14 | `1.5.7` | ⚠️ outdated |
+| Debian 13 | `1.5.7` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.5.7` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.5.5` | ⚠️ outdated |
-| Arch | `1.5.7` | ✅ latest |
-| Homebrew | `1.5.7` | ✅ latest |
-| Fedora rawhide | `1.5.7` | ✅ latest |
-| Nix unstable | `1.5.7` | ✅ latest |
-| Void | `1.5.7` | ✅ latest |
-| Alpine edge | `1.5.7` | ✅ latest |
-| openSUSE Tumbleweed | `1.5.7` | ✅ latest |
+| Arch | `1.5.7` | ⚠️ outdated |
+| Homebrew | `1.5.7` | ⚠️ outdated |
+| Fedora rawhide | `1.5.7` | ⚠️ outdated |
+| Nix unstable | `1.5.7` | ⚠️ outdated |
+| Void | `1.5.7` | ⚠️ outdated |
+| Alpine edge | `1.6.0` | ✅ latest |
+| openSUSE Tumbleweed | `1.5.7` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -106,4 +107,4 @@ zstd 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261123.yml` · 2026-11-23T08:53:29Z._
+_数据快照: `data/card/261124.yml` · 2026-11-24T11:00:39Z._
