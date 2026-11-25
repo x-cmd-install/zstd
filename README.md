@@ -14,14 +14,14 @@ x install zstd
 
 ## Code insight
 
-Total: **123,385** lines of code across **414** files in the top 5 languages.
+Total: **123,410** lines of code across **414** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
 | C | 84,003 | 16,907 | 13,856 | 150 |
-| CHeader | 12,789 | 12,028 | 3,176 | 117 |
+| CHeader | 12,789 | 12,036 | 3,176 | 117 |
 | VisualStudioProject | 6,030 | 0 | 0 | 15 |
-| Sh | 4,837 | 1,163 | 1,116 | 119 |
+| Sh | 4,842 | 1,163 | 1,116 | 119 |
 | Python | 3,298 | 294 | 523 | 13 |
 
 ## OpenSSF Scorecard
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `v1.6.0` (2026-11-23)
-- **Last commit**: 2026-11-24
+- **Last commit**: 2026-11-25
 - **Assets in release**: 9
 
 ## Popularity
 
-- **Stars**: 28,307 · **Forks**: 2,709 · **Open issues**: 1,621 · **Contributors**: 410
+- **Stars**: 28,318 · **Forks**: 2,709 · **Open issues**: 1,622 · **Contributors**: 412
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 2686 · **Open PRs**: 161 · **Closed issues**: 1370 · **Open issues**: 251 · **Commits**: 11740
+- **Releases**: 69 · **Merged PRs**: 2691 · **Open PRs**: 156 · **Closed issues**: 1373 · **Open issues**: 249 · **Commits**: 11745
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-25 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-26 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-28 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-11-29 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-04 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-26 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-27 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-29 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-11-30 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-05 | 2 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -79,25 +79,6 @@ Lowest-scoring checks:
 | [zstd-v1.6.0-win32.zip](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-v1.6.0-win32.zip) | 1.5 MiB | `native/win/x64` |
 | [zstd-v1.6.0-win64.zip](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-v1.6.0-win64.zip) | 1.5 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **320** distros on [repology.org](https://repology.org/project/zstd). **40** are ✅ on the latest upstream release, **239** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.5.7` | ⚠️ outdated |
-| Debian 14 | `1.5.7` | ⚠️ outdated |
-| Debian 13 | `1.5.7` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.5.7` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.5.5` | ⚠️ outdated |
-| Arch | `1.5.7` | ⚠️ outdated |
-| Homebrew | `1.5.7` | ⚠️ outdated |
-| Fedora rawhide | `1.5.7` | ⚠️ outdated |
-| Nix unstable | `1.5.7` | ⚠️ outdated |
-| Void | `1.5.7` | ⚠️ outdated |
-| Alpine edge | `1.6.0` | ✅ latest |
-| openSUSE Tumbleweed | `1.5.7` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `zstd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +88,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T11:00:38Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T08:50:59Z._
