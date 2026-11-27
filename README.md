@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 28,332 · **Forks**: 2,715 · **Open issues**: 1,623 · **Contributors**: 413
+- **Stars**: 28,349 · **Forks**: 2,713 · **Open issues**: 1,623 · **Contributors**: 413
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 2693 · **Open PRs**: 164 · **Closed issues**: 1398 · **Open issues**: 225 · **Commits**: 11750
+- **Releases**: 69 · **Merged PRs**: 2693 · **Open PRs**: 169 · **Closed issues**: 1401 · **Open issues**: 222 · **Commits**: 11750
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-27 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-28 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-30 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-12-01 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-06 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-28 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-28 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-29 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-05-31 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-12-02 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-07 | 2 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -81,7 +81,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **320** distros on [repology.org](https://repology.org/project/zstd). **81** are ✅ on the latest upstream release, **199** are ⚠️ on an older version.
+Reported by **324** distros on [repology.org](https://repology.org/project/zstd). **90** are ✅ on the latest upstream release, **191** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -92,7 +92,7 @@ Reported by **320** distros on [repology.org](https://repology.org/project/zstd)
 | Ubuntu 24.04 LTS | `1.5.5` | ⚠️ outdated |
 | Arch | `1.6.0` | ✅ latest |
 | Homebrew | `1.6.0` | ✅ latest |
-| Fedora rawhide | `1.5.7` | ⚠️ outdated |
+| Fedora rawhide | `1.6.0` | ✅ latest |
 | Nix unstable | `1.5.7` | ⚠️ outdated |
 | Void | `1.6.0` | ✅ latest |
 | Alpine edge | `1.6.0` | ✅ latest |
@@ -107,4 +107,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:24:45Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T08:33:51Z._
