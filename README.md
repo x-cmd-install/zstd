@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 28,349 · **Forks**: 2,713 · **Open issues**: 1,623 · **Contributors**: 413
+- **Stars**: 28,363 · **Forks**: 2,716 · **Open issues**: 1,623 · **Contributors**: 413
 
 ## Totals (cumulative)
 
-- **Releases**: 69 · **Merged PRs**: 2693 · **Open PRs**: 169 · **Closed issues**: 1401 · **Open issues**: 222 · **Commits**: 11750
+- **Releases**: 69 · **Merged PRs**: 2693 · **Open PRs**: 172 · **Closed issues**: 1401 · **Open issues**: 222 · **Commits**: 11750
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-28 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last60d | 2026-09-28 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 90d | 2026-08-29 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last180d | 2026-05-31 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 360d | 2025-12-02 | 1 | 0 | 0 | 0 | 0 | 0 |
-| last720d | 2024-12-07 | 2 | 0 | 0 | 0 | 0 | 0 |
+| 30d | 2026-10-29 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-09-29 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-08-30 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-06-01 | 1 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-12-03 | 1 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-12-08 | 2 | 0 | 0 | 0 | 0 | 0 |
 
 ## Release assets
 
@@ -79,25 +79,6 @@ Lowest-scoring checks:
 | [zstd-v1.6.0-win32.zip](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-v1.6.0-win32.zip) | 1.5 MiB | `native/win/x64` |
 | [zstd-v1.6.0-win64.zip](https://github.com/facebook/zstd/releases/download/v1.6.0/zstd-v1.6.0-win64.zip) | 1.5 MiB | `native/win/x64` |
 
-## Distribution status
-
-Reported by **324** distros on [repology.org](https://repology.org/project/zstd). **90** are ✅ on the latest upstream release, **191** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.5.7` | ⚠️ outdated |
-| Debian 14 | `1.5.7` | ⚠️ outdated |
-| Debian 13 | `1.5.7` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.5.7` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.5.5` | ⚠️ outdated |
-| Arch | `1.6.0` | ✅ latest |
-| Homebrew | `1.6.0` | ✅ latest |
-| Fedora rawhide | `1.6.0` | ✅ latest |
-| Nix unstable | `1.5.7` | ⚠️ outdated |
-| Void | `1.6.0` | ✅ latest |
-| Alpine edge | `1.6.0` | ✅ latest |
-| openSUSE Tumbleweed | `1.5.7` | ⚠️ outdated |
-
 ## Improve this data
 
 Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `zstd` is missing, out of date, or installs incorrectly, please open an issue or PR there:
@@ -107,4 +88,4 @@ Install metadata for zstd lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261127.yml` · 2026-11-27T08:33:51Z._
+_Snapshot: `data/card/261128.yml` · 2026-11-28T07:51:40Z._
