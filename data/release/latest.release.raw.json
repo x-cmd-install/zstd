@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 2564432,
       "digest": "sha256:2ba599ae2a257976278e7e71e998433a387bfd18aa7b78678229fd5d84f5e9b8",
-      "download_count": 18099,
+      "download_count": 26365,
       "created_at": "2026-11-23T23:11:56Z",
       "updated_at": "2026-11-23T23:11:56Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz"
@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 84,
       "digest": "sha256:62584254d5a177a9b0d0d83c3f42891afaa0eab2e155aebbe957953385348cad",
-      "download_count": 1150,
+      "download_count": 1443,
       "created_at": "2026-11-23T23:11:56Z",
       "updated_at": "2026-11-23T23:11:56Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz.sha256"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 858,
       "digest": "sha256:cb0c87a42a3d256ea20790e21233807e51b806d18f2b43d92e43220555b50585",
-      "download_count": 956,
+      "download_count": 1187,
       "created_at": "2026-11-23T23:11:56Z",
       "updated_at": "2026-11-23T23:11:56Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.gz.sig"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 1962795,
       "digest": "sha256:2ca30d45c7a61f255e17024373f7fe75b6403b2ade6b21220c1472964d8a466a",
-      "download_count": 414,
+      "download_count": 490,
       "created_at": "2026-11-23T23:11:56Z",
       "updated_at": "2026-11-23T23:11:56Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.zst"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 85,
       "digest": "sha256:831d7341bd13af4cdbdc8341b3f6bf81b0c636fc4322e713cac7b34fb3d117b3",
-      "download_count": 41,
+      "download_count": 44,
       "created_at": "2026-11-23T23:11:56Z",
       "updated_at": "2026-11-23T23:11:56Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.zst.sha256"
@@ -247,7 +247,7 @@
       "state": "uploaded",
       "size": 858,
       "digest": "sha256:fb618ab531abceafe80eaa00f7a44de48c6a7d8dc2c134d298590f29d71c861d",
-      "download_count": 271,
+      "download_count": 321,
       "created_at": "2026-11-23T23:11:56Z",
       "updated_at": "2026-11-23T23:11:57Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-1.6.0.tar.zst.sig"
@@ -283,7 +283,7 @@
       "state": "uploaded",
       "size": 1249428,
       "digest": "sha256:e9c300262f6c37a7540713c99f032a6b85b6899b52d5c1ca785c1cfd8759b510",
-      "download_count": 110,
+      "download_count": 125,
       "created_at": "2026-11-23T22:57:25Z",
       "updated_at": "2026-11-23T22:57:26Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-v1.6.0-win-arm64.zip"
@@ -319,7 +319,7 @@
       "state": "uploaded",
       "size": 1570013,
       "digest": "sha256:22f3f40945660f832a427bdcb2e5113d681e4a342adf2196d31c81570248f537",
-      "download_count": 165,
+      "download_count": 191,
       "created_at": "2026-11-23T23:00:04Z",
       "updated_at": "2026-11-23T23:00:05Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-v1.6.0-win32.zip"
@@ -355,7 +355,7 @@
       "state": "uploaded",
       "size": 1560495,
       "digest": "sha256:d1b4337932739f4dca65c9e98517d1dc6724d6f378dfff2ebb0ead81b9e6d4f2",
-      "download_count": 2274,
+      "download_count": 3015,
       "created_at": "2026-11-23T23:00:46Z",
       "updated_at": "2026-11-23T23:00:47Z",
       "browser_download_url": "https://github.com/meta/zstd/releases/download/v1.6.0/zstd-v1.6.0-win64.zip"
